@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/plivo/plivo-node.git' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink D:\Program Files (x86)\nodejs\\node.exe
+5 verbose cache add [ 'https://github.com/plivo/plivo-node.git', null ]
+6 verbose cache add name=undefined spec="https://github.com/plivo/plivo-node.git" args=["https://github.com/plivo/plivo-node.git",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/plivo/plivo-node.git',
+7 verbose parsed url   path: '/plivo/plivo-node.git',
+7 verbose parsed url   href: 'https://github.com/plivo/plivo-node.git' }
+8 silly lockFile 2df1ad9f--github-com-plivo-plivo-node-git https://github.com/plivo/plivo-node.git
+9 verbose lock https://github.com/plivo/plivo-node.git C:\Users\nenad.BLAFSOFT\AppData\Roaming\npm-cache\2df1ad9f--github-com-plivo-plivo-node-git.lock
+10 verbose addRemoteTarball [ 'https://github.com/plivo/plivo-node.git', null ]
+11 info retry fetch attempt 1 at 11:49:12
+12 verbose fetch to= C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git
+13 http GET https://github.com/plivo/plivo-node.git
+14 http 200 https://github.com/plivo/plivo-node.git
+15 verbose tar unpack C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git
+16 silly lockFile 0c0d6a92--com-plivo-plivo-node-git-unpack tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git-unpack
+17 verbose lock tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git-unpack C:\Users\nenad.BLAFSOFT\AppData\Roaming\npm-cache\0c0d6a92--com-plivo-plivo-node-git-unpack.lock
+18 silly lockFile a5cd11bb--github-com-plivo-plivo-node-git tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git
+19 verbose lock tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git C:\Users\nenad.BLAFSOFT\AppData\Roaming\npm-cache\a5cd11bb--github-com-plivo-plivo-node-git.lock
+20 silly gunzTarPerm modes [ '777', '666' ]
+21 error not a package C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git
+22 silly lockFile 0c0d6a92--com-plivo-plivo-node-git-unpack tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git-unpack
+23 silly lockFile 0c0d6a92--com-plivo-plivo-node-git-unpack tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git-unpack
+24 silly lockFile a5cd11bb--github-com-plivo-plivo-node-git tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git
+25 silly lockFile a5cd11bb--github-com-plivo-plivo-node-git tar://C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git
+26 silly lockFile 2df1ad9f--github-com-plivo-plivo-node-git https://github.com/plivo/plivo-node.git
+27 silly lockFile 2df1ad9f--github-com-plivo-plivo-node-git https://github.com/plivo/plivo-node.git
+28 error Error: ENOENT, open 'C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git-unpack\package.json'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Windows_NT 6.2.9200
+31 error command "D:\\Program Files (x86)\\nodejs\\\\node.exe" "D:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/plivo/plivo-node.git"
+32 error cwd D:\PROJECTS\PhoneGap\Ricochet
+33 error node -v v0.10.36
+34 error npm -v 1.4.28
+35 error path C:\Users\NENAD~1.BLA\AppData\Local\Temp\npm-4648-9k9wHWKk\github.com\plivo\plivo-node.git-unpack\package.json
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
